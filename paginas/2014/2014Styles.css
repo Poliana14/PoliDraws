@@ -1,0 +1,18 @@
+img{
+    width: 20%;
+    height: 20%;
+    margin: 2em;
+
+}
+
+p{
+    text-align: justify;
+    display: flex;
+}
+.alinharElementosADireita{
+    text-align: right;
+}
+
+.alinharElementosAEsquerda{
+    text-align: left;
+}

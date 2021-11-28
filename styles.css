@@ -1,0 +1,155 @@
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Snell Roundhand, cursive;
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: none
+	}
+a:active {
+	text-decoration: none
+	}
+body{
+    margin: 50px 100px 50px 100px;
+    font-size: 22px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+    background-color: #242424;
+}
+
+h1{
+    color:#ffffff;
+}
+
+.stopFloat{    
+    clear: both;
+}
+
+.alinharElementosAEsquerda{
+    float: left;
+  
+}
+
+.alinharElementosADireita{
+    float: right;
+}
+
+.alinharTextoADireita{
+    text-align: right;
+}
+
+.alinharTextoAEsquerda{
+    text-align: left;
+}
+
+#title{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 100px;
+    animation-name: title;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-delay: 900ms;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 840;
+    font-style: italic;
+}
+@keyframes title{
+    0% {transtale:10px ; color:rgb(94, 94, 94)} 
+    10%{color:rgb(156, 156, 156)};
+}
+
+#eu{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    animation-name: title;
+    animation-duration: 910ms;
+    animation-iteration-count: infinite;
+    animation-delay: 910ms;
+    text-align: justify;
+    color: #ffffff;
+    font-weight: 840;
+    font-style: italic;
+}
+@keyframes eu{
+    0% {transtale:10px ; color:rgb(54, 54, 54)} 
+    10%{color:rgb(156, 156, 156)};
+}
+
+
+#video{
+    height: 200%;
+    width: 300px;
+    border: #000000;
+    border: 1cm;
+    border-radius: 1cm;
+}
+
+
+.capa{
+    height: 8em;
+    width: 8em;
+    display: inline-block;
+}
+
+.capa a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#capas{
+    margin: auto; 
+    text-align: center;
+}
+
+.cap{
+    width: 80%;
+    height: 90%;
+    border: #000000;
+    border: 1cm;
+    border-radius: 1cm;
+}
+
+
+.imagemPrincipal{
+    border: 20px solid #1d294f;
+    border-radius: 13em/3em;
+    
+}
+
+
+.rotacionar45{
+    transform: rotate(45deg);
+}
+
+.rotacionar315{
+    transform: rotate(-45deg);
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+.zap {
+    padding-top: 3mm;
+    width: 70%;
+    height: 70%;
+}
